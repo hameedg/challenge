@@ -1,0 +1,48 @@
+This concept is helpful where in usual overflow in understanding of selection of data type is still a confusion where to ? how to ? when to ?
+Not only this it can even support
+1. masking
+2. shift/unshift
+3. 
+In c++ we have 6 bitwise operators as
+AND (&)
+OR (|)
+-------------
+XOR(^) 
+a b result
+0 0 0
+0 1 1
+1 0 1
+1 1 0
+
+------------
+
+************
+leading<----100000001---->trailing
+************
+
+LeftShift (<<)
+eg:
+x:000......000011
+now x<<1: 000......000110
+
+RightShift(>>)
+
+note:
+x<<y is equivalent to x*2^y
+x>>y is equivalent to x/2^y
+
+NOT(~)
+It is just an inversion
+for unsigned:
+[0 - 2^32-1]
+for signed:
+always the leading bit is reserved for sign i.e. + -> 0
+                                                 - -> 1
+The negative numbers are stored in 2's complement form as
+2^32 - x 
+                                              
+
+
+
+
+
