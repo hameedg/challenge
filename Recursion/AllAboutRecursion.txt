@@ -1,0 +1,20 @@
+Function call:
+Whenever a function is called is the same function or different function.
+------
+And if the function call is in the same function with minor changes and added base cases it is referred as RECURSION
+------
+Applications:
+...cousin of iterative
+  RECURSION over ITERATION
+  -> DP, BackTracking, Divide and Conquer(merge and quick sort)
+  -> Tower of hanoi
+  -> DFS(in, pre, post)-----searching file in file explorer
+
+Tail RECURSION:
+When a function call is held and it is not required that the function must come back to do the work left infact it already does its work when it was called for the first time 
+Whenever a parent call uses the direct result of child call without any arithematic or calculation is tail recursive  
+-------
+contrary to Tail RECURSION which has some pending work to finish after calling for the 1st time i.e. it must be called to complete its work
+-------
+
+if function call stack is full it throws a segmentation fault in cpp
