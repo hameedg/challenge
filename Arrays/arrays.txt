@@ -1,0 +1,52 @@
+An Array is a collection of items of same datatype
+Array is not only the data structures there are other such as linked list, cll, vector
+But how array is different from others?
+Array are typically stored at contiguous memory locations
+Array elements are accessed as indexes
+----------arr[i]----------
+Advantages od contiguous:
+random access--->you can call any indexed elements---->O(1)
+cache friendly(fastest memory)--->they prefetch nearby items
+
+Types of Arrays:
+Fixed-->
+arr[n],
+arr[100], 
+int *arr= new int[n],
+arr[]={10,3,2,5}
+Dynamic--->
+(vector)
+
+Vectors::
+why vectors?
+everything was perfect like static and dynamic arrays but why another container as Vectors
+
+Reason:
+The Dynamic arrays has a property as it make the current array double even when we need only 2 extra spaces 
+so here are Vectors
+
+advatages :
+1. dynamic size
+2. stl 
+
+  conventional array size:        |  vector array size:
+1.sizeof(arr)/sizeof(arr[0])      |      v.size()
+2.while declaring functions that  |        no need
+contain arrays it goes like this  |            
+                                  |
+int func(int arr[],int n){}       |
+
+operations on arrays::
+insert 
+O(n)
+search
+O(n) unsorted 
+O(logn) sorted
+delete 
+O(n)
+retrive 
+O(1)
+
+
+
+ 
